@@ -1,0 +1,521 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<dos.h>
+void main()
+{
+char z,ch;
+clrscr();
+do {
+printf("Welcome to piano game\n");
+printf("Press Keys from 1 to 9  for sound and press Z to exit\n");
+printf("press key 1 for birthaday tune\n");
+scanf("%c",&ch);
+printf("playing music\n");
+switch(ch)
+{
+
+case '1':
+sound(264);
+delay(500);
+nosound();
+
+sound(25000);
+delay(40);
+nosound();
+
+printf("Playing music\n");
+sound(264);
+delay(250);
+nosound();
+
+sound(25000);
+delay(40);
+nosound();
+
+printf("Playing music\n");
+sound(297);
+delay(250);
+nosound();
+
+sound(25000);
+delay(100);
+nosound();
+
+printf("Playing music\n");
+sound(264);
+delay(250);
+nosound();
+
+sound(25000);
+delay(100);
+nosound();
+
+printf("Playing music\n");
+sound(352);
+delay(250);
+nosound();
+
+sound(25000);
+delay(100);
+nosound();
+
+
+printf("Playing music\n");
+sound(330);
+delay(500);
+nosound();
+
+sound(25000);
+delay(200);
+nosound();
+
+printf("Playing music\n");
+sound(264);
+delay(500);
+nosound();
+
+sound(25000);
+delay(40);
+nosound();
+
+printf("Playing music\n");
+sound(260);
+delay(250);
+nosound();
+
+sound(25000);
+delay(40);
+nosound();
+
+printf("Playing music\n");
+sound(297);
+delay(250);
+nosound();
+
+sound(25000);
+delay(100);
+nosound();
+
+printf("Playing music\n");
+sound(264);
+delay(250);
+nosound();
+
+sound(25000);
+delay(100);
+nosound();
+
+printf("Playing music\n");
+sound(396);
+delay(250);
+nosound();
+
+sound(25000);
+delay(100);
+nosound();
+
+printf("Playing music\n");
+sound(352);
+delay(500);
+nosound();
+
+sound(25000);
+delay(200);
+nosound();
+
+printf("Playing music\n");
+sound(264);
+delay(500);
+nosound();
+
+sound(25000);
+delay(40);
+nosound();
+
+printf("Playing music\n");
+sound(264);
+delay(250);
+nosound();
+
+sound(25000);
+delay(25);
+nosound();
+
+printf("Playing music\n");
+sound(264);
+delay(250);
+nosound();
+
+sound(25000);
+delay(100);
+nosound();
+
+printf("Playing music\n");
+sound(440);
+delay(250);
+nosound();
+
+sound(25000);
+delay(100);
+nosound();
+
+printf("Playing music\n");
+sound(352);
+delay(250);
+nosound();
+
+sound(25000);
+delay(50);
+nosound();
+
+printf("Playing music\n");
+sound(352);
+delay(250);
+nosound();
+
+sound(25000);
+delay(25);
+nosound();
+
+printf("Playing music\n");
+sound(330);
+delay(250);
+nosound();
+
+sound(25000);
+delay(100);
+nosound();
+
+printf("Playing music\n");
+sound(297);
+delay(500);
+nosound();
+
+sound(25000);
+delay(200);
+nosound();
+
+printf("Playing music\n");
+sound(466);
+delay(500);
+nosound();
+
+sound(25000);
+delay(25);
+nosound();
+
+printf("Playing music\n");
+sound(466);
+delay(250);
+nosound();
+
+sound(25000);
+delay(25);
+nosound();
+
+printf("Playing music\n");
+sound(440);
+delay(250);
+nosound();
+
+sound(25000);
+delay(100);
+nosound();
+
+printf("Playing music\n");
+sound(352);
+delay(250);
+nosound();
+
+sound(25000);
+delay(100);
+nosound();
+
+printf("Playing music\n");
+sound(396);
+delay(250);
+nosound();
+
+sound(25000);
+delay(200);
+nosound();
+
+sound(352);
+delay(250);
+nosound();
+break;
+
+
+case '2':
+
+#include<stdio.h>
+#include<dos.h>
+{
+clrscr();
+printf("\n\n\n\t\t--||Prakhar presents||--\n\n\t\t    HEDWIG THEME SONG");
+sound(493);    //B
+delay(350);
+nosound();
+
+sound(659);       //E
+delay(500);
+nosound();
+
+sound(783);      //G
+delay(250);
+nosound();
+
+sound(740);         //#F
+delay(330);
+nosound();
+sound(659);         //E
+delay(440);
+nosound();
+
+sound(987);         //B
+delay(400);
+nosound();
+
+sound(880);          //A
+delay(500);
+nosound();
+
+sound(740);
+delay(450);        //F#
+nosound();
+delay(60);
+
+sound(659);         //E
+delay(350);
+nosound();
+sound(783);        //G
+delay(400);
+nosound();
+
+sound(740);     //F#
+delay(300);
+nosound();
+
+sound(659);      //E
+delay(450);
+nosound();
+delay(40);
+sound(659);     //E
+delay(300);
+nosound();
+
+sound(493);    //B
+delay(500);
+nosound();
+delay(70);
+sound(493);     //B
+delay(350);
+nosound();
+
+sound(659);      //E
+delay(500);
+nosound();
+
+sound(783);
+delay(250);    //G
+nosound();
+
+sound(740);    //F#
+delay(330);
+nosound();
+
+sound(659);
+delay(440);      //E
+nosound();
+
+sound(987);
+delay(400);      //B
+nosound();
+ //     /*
+sound(1174);
+delay(300);      //+D
+nosound();
+
+sound(1174);      //+D
+delay(300);
+nosound();
+
+sound(1046);      //C+
+delay(300);
+nosound();
+
+
+sound(880);        //A
+delay(300);
+nosound();
+
+sound(1046);         //C
+delay(300);
+nosound();
+
+sound(987);            //B
+delay(300);
+nosound();
+
+sound(987);
+delay(300);          //B
+nosound();
+
+sound(659);            //E
+delay(300);
+nosound();
+
+sound(783);          //G
+delay(300);
+nosound();
+
+sound(659);           //E
+delay(400);
+nosound();
+//
+sound(783);             //G
+delay(200);
+nosound();
+
+sound(987);          //B
+delay(200);
+nosound();
+
+sound(783);         //G
+delay(200);
+nosound();
+
+sound(987);          //B
+delay(200);
+nosound();
+
+sound(783);           //G
+delay(200);
+nosound();
+
+sound(1046);           //C+
+delay(200);
+nosound();
+
+sound(987);             //B
+delay(200);
+nosound();
+
+sound(987);            //B
+delay(200);
+nosound();
+
+sound(740);             //F#
+delay(300);
+nosound();
+
+sound(783);             //G
+delay(200);
+nosound();
+
+sound(987);              //B
+delay(200);
+nosound();
+
+sound(987);              //B
+delay(350);
+nosound();
+
+sound(659);                 //E               3546545643
+delay(400);
+nosound();
+
+sound(659);                 //E
+delay(300);
+nosound();
+
+sound(987);                //B
+delay(200);
+nosound();
+
+
+//3
+sound(783);                //G
+delay(300);
+nosound();
+
+sound(987);                //B
+delay(300);
+nosound();
+
+sound(783);                //G
+delay(300);
+nosound();
+
+sound(987);                //B
+delay(300);
+nosound();
+
+sound(783);                //G
+delay(300);
+nosound();
+
+
+sound(1174);                //D+
+delay(300);
+nosound();
+
+
+sound(1174);                //D+
+delay(300);
+nosound();
+
+
+sound(1046);                //C+
+delay(300);
+nosound();
+
+
+sound(880);                //A
+delay(300);
+nosound();
+
+
+sound(1046);                //C+
+delay(300);
+nosound();
+
+
+sound(987);                //B
+delay(300);
+nosound();
+
+
+sound(987);                //B
+delay(300);
+nosound();
+
+
+sound(659);                //E
+delay(300);
+nosound();
+
+
+sound(783);                //G
+delay(350);
+nosound();
+
+
+sound(659);                //E
+delay(400);
+nosound();
+
+
+
+   // */
+getch();
+}
+
+
+
+case 'z':
+exit(0);
+}
+}while(ch!=z);
+getch();
+}

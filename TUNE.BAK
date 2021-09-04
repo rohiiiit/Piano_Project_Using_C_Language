@@ -1,0 +1,535 @@
+
+#include<stdio.h>
+#include<stdlib.h>
+#include<dos.h>
+#include"tune2.h"
+#include"tunetype.h"
+#include"airtel.h"
+void main()
+{
+char z,ch;
+clrscr();
+do {
+printf("Welcome to Piano\n");
+printf("Press Keys from 1 to 5  for sound and press Z to exit\n");
+printf("Press key\n 1 For Birthday tune\n 2 For Hedwig Theme \n 3 For National Anthem\n 4 For Airtel Tune\n 5 For Piano Keywords\n ");
+scanf("%c",&ch);
+printf("Playing Piano Tune");
+switch(ch)
+{
+
+case '1':
+sound(264);
+delay(500);
+nosound();
+
+sound(25000);
+delay(40);
+nosound();
+
+sound(264);
+delay(250);
+nosound();
+
+sound(25000);
+delay(40);
+nosound();
+
+
+sound(297);
+delay(250);
+nosound();
+
+sound(25000);
+delay(100);
+nosound();
+
+
+sound(264);
+delay(250);
+nosound();
+
+sound(25000);
+delay(100);
+nosound();
+
+sound(352);
+delay(250);
+nosound();
+
+sound(25000);
+delay(100);
+nosound();
+
+
+
+sound(330);
+delay(500);
+nosound();
+
+sound(25000);
+delay(200);
+nosound();
+
+sound(264);
+delay(500);
+nosound();
+
+sound(25000);
+delay(40);
+nosound();
+
+
+sound(260);
+delay(250);
+nosound();
+
+sound(25000);
+delay(40);
+nosound();
+
+sound(297);
+delay(250);
+nosound();
+
+sound(25000);
+delay(100);
+nosound();
+
+sound(264);
+delay(250);
+nosound();
+
+sound(25000);
+delay(100);
+nosound();
+
+sound(396);
+delay(250);
+nosound();
+
+sound(25000);
+delay(100);
+nosound();
+
+sound(352);
+delay(500);
+nosound();
+
+sound(25000);
+delay(200);
+nosound();
+
+
+sound(264);
+delay(500);
+nosound();
+
+sound(25000);
+delay(40);
+nosound();
+
+sound(264);
+delay(250);
+nosound();
+
+sound(25000);
+delay(25);
+nosound();
+
+sound(264);
+delay(250);
+nosound();
+
+sound(25000);
+delay(100);
+nosound();
+
+
+sound(440);
+delay(250);
+nosound();
+
+sound(25000);
+delay(100);
+nosound();
+
+sound(352);
+delay(250);
+nosound();
+
+sound(25000);
+delay(50);
+nosound();
+
+
+sound(352);
+delay(250);
+nosound();
+
+sound(25000);
+delay(25);
+nosound();
+
+
+sound(330);
+delay(250);
+nosound();
+
+sound(25000);
+delay(100);
+nosound();
+
+
+sound(297);
+delay(500);
+nosound();
+
+sound(25000);
+delay(200);
+nosound();
+
+
+sound(466);
+delay(500);
+nosound();
+
+sound(25000);
+delay(25);
+nosound();
+
+
+sound(466);
+delay(250);
+nosound();
+
+sound(25000);
+delay(25);
+nosound();
+
+
+sound(440);
+delay(250);
+nosound();
+
+sound(25000);
+delay(100);
+nosound();
+
+
+sound(352);
+delay(250);
+nosound();
+
+sound(25000);
+delay(100);
+nosound();
+
+sound(396);
+delay(250);
+nosound();
+
+sound(25000);
+delay(200);
+nosound();
+
+sound(352);
+delay(250);
+nosound();
+break;
+
+
+case '2':
+
+#include<stdio.h>
+#include<dos.h>
+{
+clrscr();
+printf("   HEDWIG THEME SONG");
+sound(493);    //B
+delay(350);
+nosound();
+
+sound(659);       //E
+delay(500);
+nosound();
+
+sound(783);      //G
+delay(250);
+nosound();
+
+sound(740);         //#F
+delay(330);
+nosound();
+sound(659);         //E
+delay(440);
+nosound();
+
+sound(987);         //B
+delay(400);
+nosound();
+
+sound(880);          //A
+delay(500);
+nosound();
+
+sound(740);
+delay(450);        //F#
+nosound();
+delay(60);
+
+sound(659);         //E
+delay(350);
+nosound();
+sound(783);        //G
+delay(400);
+nosound();
+
+sound(740);     //F#
+delay(300);
+nosound();
+
+sound(659);      //E
+delay(450);
+nosound();
+delay(40);
+sound(659);     //E
+delay(300);
+nosound();
+
+sound(493);    //B
+delay(500);
+nosound();
+delay(70);
+sound(493);     //B
+delay(350);
+nosound();
+
+sound(659);      //E
+delay(500);
+nosound();
+
+sound(783);
+delay(250);    //G
+nosound();
+
+sound(740);    //F#
+delay(330);
+nosound();
+
+sound(659);
+delay(440);      //E
+nosound();
+
+sound(987);
+delay(400);      //B
+nosound();
+ //     /*
+sound(1174);
+delay(300);      //+D
+nosound();
+
+sound(1174);      //+D
+delay(300);
+nosound();
+
+sound(1046);      //C+
+delay(300);
+nosound();
+
+
+sound(880);        //A
+delay(300);
+nosound();
+
+sound(1046);         //C
+delay(300);
+nosound();
+
+sound(987);            //B
+delay(300);
+nosound();
+
+sound(987);
+delay(300);          //B
+nosound();
+
+sound(659);            //E
+delay(300);
+nosound();
+
+sound(783);          //G
+delay(300);
+nosound();
+
+sound(659);           //E
+delay(400);
+nosound();
+//
+sound(783);             //G
+delay(200);
+nosound();
+
+sound(987);          //B
+delay(200);
+nosound();
+
+sound(783);         //G
+delay(200);
+nosound();
+
+sound(987);          //B
+delay(200);
+nosound();
+
+sound(783);           //G
+delay(200);
+nosound();
+
+sound(1046);           //C+
+delay(200);
+nosound();
+
+sound(987);             //B
+delay(200);
+nosound();
+
+sound(987);            //B
+delay(200);
+nosound();
+
+sound(740);             //F#
+delay(300);
+nosound();
+
+sound(783);             //G
+delay(200);
+nosound();
+
+sound(987);              //B
+delay(200);
+nosound();
+
+sound(987);              //B
+delay(350);
+nosound();
+
+sound(659);                 //E               3546545643
+delay(400);
+nosound();
+
+sound(659);                 //E
+delay(300);
+nosound();
+
+sound(987);                //B
+delay(200);
+nosound();
+
+
+//3
+sound(783);                //G
+delay(300);
+nosound();
+
+sound(987);                //B
+delay(300);
+nosound();
+
+sound(783);                //G
+delay(300);
+nosound();
+
+sound(987);                //B
+delay(300);
+nosound();
+
+sound(783);                //G
+delay(300);
+nosound();
+
+
+sound(1174);                //D+
+delay(300);
+nosound();
+
+
+sound(1174);                //D+
+delay(300);
+nosound();
+
+
+sound(1046);                //C+
+delay(300);
+nosound();
+
+
+sound(880);                //A
+delay(300);
+nosound();
+
+
+sound(1046);                //C+
+delay(300);
+nosound();
+
+
+sound(987);                //B
+delay(300);
+nosound();
+
+
+sound(987);                //B
+delay(300);
+nosound();
+
+
+sound(659);                //E
+delay(300);
+nosound();
+
+
+sound(783);                //G
+delay(350);
+nosound();
+
+
+sound(659);                //E
+delay(400);
+nosound();
+
+
+
+
+getch();
+}
+break;
+
+
+case '3':
+ add();
+ printf("NATIONAL ANTHEM TUNE");
+ break;
+
+
+ case '4':
+ add3();
+
+ break;
+
+
+
+
+case '5':
+
+add1();
+break;
+
+
+
+case 'z':
+exit(0);
+}
+}while(ch!=z);
+getch();
+}
